@@ -1,5 +1,8 @@
 package com.o;
 
-public class DatabasePersistence {
+import java.util.List;
 
+public interface DatabasePersistence {
+    void save(Book book);
+    List<Book> getAllBooks();
 }

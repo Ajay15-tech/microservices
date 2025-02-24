@@ -1,5 +1,7 @@
 package com.o;
 
-public class Book {
-
+public interface Book {
+    String getTitle();
+    String getAuthor();
+    int getPages();
 }

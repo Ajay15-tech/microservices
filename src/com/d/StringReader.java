@@ -1,5 +1,5 @@
 package com.d;
 
-public class StringReader {
-
+public interface StringReader {
+    String readString();
 }
